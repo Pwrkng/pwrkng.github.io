@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: rgb(155, 222, 135);
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+h1 {
+    text-align: center;
+    /* animation: infinite; */
+}
+
+div {
+    text-align: center;
+}
+
+.blockdiv {
+    background-color: white;
+    width: 30px;
+
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    height: 5px;
+    width: 5px;
+    z-index: 99;
+
+    animation: infinite;
+
+}
