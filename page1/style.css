@@ -1,39 +1,24 @@
-body {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: 10px 20px;
+    margin: 5px;
     background-color: rgb(255, 255, 255);
-    color: rgb(155, 222, 135);
-    font-family: 'Courier New', Courier, monospace;
-    
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
 }
-
-h1 {
-    text-align: center;
-    /* animation: infinite; */
-}
-
-div {
-    text-align: center;
-}
-
-.blockdiv {
-    background-color: rgb(0, 0, 0);
-    width: 30px;
-
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    height: 100px;
-    width: 5px;
-    z-index: 99;
-
-    animation: infinite;
-
-}
-body{
-    text-align:center;
-    background-color:#000000;
-  }
-  
-  .button{
+.button{
     position:relative;
     display:inline-block;
     margin:20px;
