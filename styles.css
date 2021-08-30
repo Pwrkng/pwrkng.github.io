@@ -1,6 +1,6 @@
 body {
     background-color: rgb(255, 255, 255);
-    color: rgb(155, 222, 135);
+    color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
     
 }
@@ -23,20 +23,21 @@ div {
     left: 50%;
     height: 100px;
     width: 5px;
-    z-index: 99;
+    z-index: 0;
 
     animation: infinite;
 
 }
 body{
     text-align:center;
-    background-color:#000000;
+    background-color:#ffffff;
   }
   
   .button{
     position:relative;
     display:inline-block;
     margin:20px;
+    z-index: 50;
   }
   
   .button a{

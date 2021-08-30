@@ -1,62 +1,49 @@
-:root {
-    --purple: #3e0249;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    color: var(--purple);
-    font-family: sans-serif;
-}
-
 *{
-    box-sizing: border-box;
+    padding: 0;
+    margin: 0 ;
 }
-
-h1{
-    font-size: 54px;
-    text-transform: uppercase;
+#game{
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
 }
-
-.container {
-    padding: 40px;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+#character{
+    width: 20px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    top: 150px;
+}    
+.animate{ 
+    animation: jump 500ms;
 }
-
-#gameboard {
-    width: 450px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 40px;
-
+@keyframes jump{
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
 }
-
-.box {
-    height: 150px;
-    width: 150px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    color: var(--purple);
-    font-size: 150px;
+#block{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    position: relative;
+    top: 130px;
+    left: 480px;
+    animation: block 1s infinite linear;
 }
-
+@keyframes block{
+    0%{left:480px;}
+    100%{left:-40px;}
+}
 button{
     padding: 10px 20px;
-    border-radius: 10px;
-    background-color: var(--purple);
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
     color: white;
-    border-color: var(--purple);
-    font-size: 18px;
-    transition: 200ms transform;
-}
-button:hover {
-    cursor: pointer;
-    transform: translatey(-2px);
+    border: none;
+    outline: none;
+    border-radius: 5px;
 }
 .button{
     position:relative;
