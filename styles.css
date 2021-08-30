@@ -17,7 +17,6 @@ div {
 .blockdiv {
     background-color: rgb(0, 0, 0);
     width: 30px;
-
     position: absolute;
     top: 100%;
     left: 50%;

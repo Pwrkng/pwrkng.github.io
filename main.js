@@ -6,7 +6,7 @@ let load = () => {
             div.classList.add('animate__animated');
             div.classList.add('animate__backOutUp');
             /*div.style.top = random(80)+10+'%';*/
-            div.style.top = '80%';
+            div.style.top = '90%';
             div.style.left = random(80)+10+'%';
             div.style.animationDelay = '0.'+random(10)+'s';
             div.style.animationDuration = random(10)+'s';
