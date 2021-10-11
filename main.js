@@ -1,5 +1,5 @@
 let load = () => {
-    for(let i=0;i<2500;i++){
+    for(let i=0;i<1500;i++){
         let div = document.createElement("div");
             div.id = 'div'+1;
             div.classList.add('blockdiv');
